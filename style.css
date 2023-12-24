@@ -1,0 +1,56 @@
+/* Style simple pour le formulaire */
+
+/* Conteneur principal du formulaire */
+#reservation-form {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    border-radius: 5px; 
+    width: 300px; 
+    margin: auto; 
+}
+
+/* Chaque groupe de champs */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Label (étiquette) pour chaque champ */
+.form-group label {
+    font-weight: bold; 
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+/* Champ de texte, email et date */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="date"] {
+    width: 100%; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+/* Liste déroulante pour les horaires */
+.form-group select {
+    width: 100%; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+/* Bouton de soumission */
+input[type="submit"] {
+    width: 100%; 
+    padding: 10px; 
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+/* Effet au survol du bouton */
+input[type="submit"]:hover {
+    background-color: #45a049; 
+}
